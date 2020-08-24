@@ -20,6 +20,6 @@
 
 **ŠJ”­ŠÂ‹«**
 
-visual stadio 2019
+visual stadio 2019_ver16.6.5
 
 C# Windows Forms App (.NET Core)
