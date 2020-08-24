@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Subject.Domain
 {
-    class RockPaperScissorsState
+    public class RockPaperScissorsState
     {
         private string name;
 
