@@ -36,6 +36,7 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
             this.btnAppealingPoint = new System.Windows.Forms.Button();
+            this.btnOutPut = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRock
@@ -119,11 +120,23 @@
             this.btnAppealingPoint.UseVisualStyleBackColor = true;
             this.btnAppealingPoint.Click += new System.EventHandler(this.btnAppealingPoint_Click);
             // 
+            // btnOutPut
+            // 
+            this.btnOutPut.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnOutPut.Location = new System.Drawing.Point(26, 273);
+            this.btnOutPut.Name = "btnOutPut";
+            this.btnOutPut.Size = new System.Drawing.Size(75, 45);
+            this.btnOutPut.TabIndex = 10;
+            this.btnOutPut.Text = "出力";
+            this.btnOutPut.UseVisualStyleBackColor = true;
+            this.btnOutPut.Click += new System.EventHandler(this.btnOutPut_Click);
+            // 
             // RockPaperScissors
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(367, 340);
+            this.Controls.Add(this.btnOutPut);
             this.Controls.Add(this.btnAppealingPoint);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.txtName);
@@ -149,6 +162,7 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Button btnAppealingPoint;
+        private System.Windows.Forms.Button btnOutPut;
     }
 }
 

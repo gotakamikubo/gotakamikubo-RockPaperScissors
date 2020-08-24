@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 
 namespace Subject.Applications
@@ -11,6 +12,8 @@ namespace Subject.Applications
         private List<Result?> results = new List<Result?>();
 
         private Random random;
+
+        private RockPaperScissorsState rockPaperScissorsState = new RockPaperScissorsState();
 
         public string ConvertJapanese(Hand hand) => (hand) switch
         {
